@@ -43,7 +43,28 @@
     }
     footer img {
         width: 70%;
-    }    
+    }  
+    #upcoming-match {
+        padding: 0 20px;
+    }  
+    .match-title h2 {
+        text-align: center;
+    }
+    .match-vs {
+        display: block;
+    }
+    .clubs-container {
+        padding: 20px 20px;
+        margin: 0 20px;
+    }
+    .clubs-title h1 {
+        margin-bottom: 20px;
+    }
+    .clubs-logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
  }
 
 /* // Small devices (landscape phones, 576px and up) */
