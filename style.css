@@ -20,6 +20,9 @@ a{
 li{
     list-style: none;
 }
+.bg-bluish{
+    background-color: #2D25A0;
+}
 .btn{
     font-size: 16px;
     padding: 10px 15px;
@@ -38,6 +41,8 @@ li{
 .common-template{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 70px;
+
 }
 .common-content{
     display: flex;
@@ -48,8 +53,11 @@ li{
 .common-content h1{
     font-size: 64px;
     font-weight: 700;
+    color: #fff;
 }
-.common-content a{}
+.common-content .btn{
+    margin-top: 20px;
+}
 .common-img{}
 .common-img img{
     width: 100%;
@@ -61,6 +69,7 @@ header{
 nav{
     display: grid;
     grid-template-columns: auto 1fr;
+    padding: 40px 0;
 }
 nav ul{
     display: flex;
@@ -74,7 +83,7 @@ nav ul li a{
     /* background-color: #E02C6D; */
     font-size: 16px;
     margin-right: 5px;
-    color: #000;
+    color: #fff;
     border-radius: 2px;
 }
 nav ul li a:hover{
@@ -89,11 +98,13 @@ nav ul li a:hover{
 .bar-icon{
     display: none;
     font-size: 30px;
+    color: #fff;
 }
 
 /* hero section */
 #hero{
-    
+    padding-top: 40px;
+    padding-bottom: 70px;
 }
 
 /* players profile section */

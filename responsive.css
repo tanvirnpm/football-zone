@@ -6,11 +6,23 @@
     .bar-icon{
         display: block;
     }
+    nav {
+        padding: 40px 10px;
+    }
     nav ul{
         display: none;
     }
     .common-template{
         grid-template-columns: 1fr;
+    }
+    .common-content h1{
+        font-size: 36px;
+    }
+    #hero {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 50px;
     }
     #players-profile{
         display: grid;
