@@ -7,7 +7,7 @@
         display: block;
     }
     nav {
-        padding: 40px 10px;
+        padding: 40px 20px;
     }
     nav ul{
         display: none;
@@ -19,8 +19,8 @@
         font-size: 36px;
     }
     #hero {
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
         padding-top: 10px;
         padding-bottom: 50px;
     }
@@ -28,7 +28,22 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
+        padding: 50px 20px;
     }
+    #world-cup{
+        padding-bottom: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #world-cup.common-template {
+        row-gap: 30px;
+    }
+    #world-cup .common-content .btn {
+        margin-top: 30px;
+    }
+    footer img {
+        width: 70%;
+    }    
  }
 
 /* // Small devices (landscape phones, 576px and up) */

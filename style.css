@@ -111,22 +111,87 @@ nav ul li a:hover{
 #players-profile{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 30px;
+    padding: 100px 0;
 }
-.player-card{}
+.player-card{
+    background-color: #fff;
+    box-shadow: 0 0px 15px 0px #ddd;
+    padding: 15px;
+}
+.player-card h3{
+    color: #18191F;
+    font-size: 28px;
+    padding: 10px 0;
+}
+.player-card p{
+    color: #6C6C6C;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
 .player-card img{
     width: 100%;
 }
+
+/* world cup section */
+#world-cup{
+    padding-bottom: 100px;
+    padding-top: 11px;
+}
+#world-cup .common-content{}
+#world-cup .common-content p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+#world-cup .common-content h1{
+    font-size: 48px;
+    color: #0A0826;
+    margin-bottom: 10px;
+}
+#world-cup .common-template .common-content .btn{}
 
 /* footer section */
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 0;
+}
+footer p{
+    font-size: 18px;
+    color: #000;
 }
 footer img{
     width: 40%;
 }
 .social-icon{
     display: flex;
+    padding: 30px 0;
+}
+.social-icon li{
+    /* list-style: none;
+    height: 60px;
+    width: 60px;
+    background-color: #E7E7E8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 20px;
+    margin: 0 10px; */
+}
+.social-icon li a {
+    color: #969BAB;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #E7E7E8;
+    margin: 0 10px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    text-align: center;
+    border-radius: 59px;
+    align-items: center;
+    justify-content: center;
 }
