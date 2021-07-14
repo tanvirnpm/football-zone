@@ -61,7 +61,7 @@ li{
 .common-content .btn{
     margin-top: 20px;
 }
-.common-img{}
+
 .common-img img{
     transform: scale(1);
     transition: transform 1s;
@@ -73,9 +73,6 @@ li{
     cursor: pointer;
 }
 /* header section */
-header{
-
-}
 nav{
     display: grid;
     grid-template-columns: auto 1fr;
@@ -155,7 +152,7 @@ nav ul li a:hover{
     padding-bottom: 100px;
     padding-top: 11px;
 }
-#world-cup .common-content{}
+
 #world-cup .common-content p{
     font-size: 16px;
     color: #6C6C6C;
@@ -165,11 +162,11 @@ nav ul li a:hover{
     color: #0A0826;
     margin-bottom: 10px;
 }
-#world-cup .common-template .common-content .btn{}
+
 
 
 /* upcoming match */
-#upcoming-match{}
+
 .match-card {
     box-shadow: 0 0px 15px 0px #ddd;
     padding: 80px 20px;
@@ -222,9 +219,7 @@ nav ul li a:hover{
     color: #fff;
     margin: 20px 0;
 }
-.team-name{}
-.team-title{ }
-.team-title h3{ }
+
 
 /* football clubs */
 #football-clubs {
@@ -236,7 +231,7 @@ nav ul li a:hover{
     border: 1px solid #ddd;
     padding: 50px 20px;
 }
-.clubs-title{}
+
 .clubs-title h1 {
     text-align: center;
     font-size: 36px;
@@ -247,8 +242,6 @@ nav ul li a:hover{
     grid-template-columns: repeat(6, 1fr);
     gap: 30px;
 }
-.club{}
-.club img{}
 
 /* footer section */
 footer{
